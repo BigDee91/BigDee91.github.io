@@ -1,0 +1,42 @@
+body {
+  background-color: bisque;
+}
+
+header {
+  padding: 10px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  font-size: larger;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+  list-style-type: none;
+}
+
+#about {
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+  font-style: oblique;
+  font-size: large;
+}
+
+img {
+  width: 200px;
+  padding-left: 200px;
+
+
+}
