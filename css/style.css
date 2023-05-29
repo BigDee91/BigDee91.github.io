@@ -37,6 +37,8 @@ nav ul {
 img {
   width: 200px;
   padding-left: 200px;
+}
 
-
+.bigbox {
+  border: 1px solid;
 }
