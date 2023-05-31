@@ -5,7 +5,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: (3 1fr);
-  grid-template-rows: 20% 400px 200px ;
+  grid-template-rows: 20% 400px 50px ;
   grid-template-areas:
   "hd"
   "main"
@@ -53,6 +53,7 @@ nav ul li a {
 img {
   width: 300px;
   height: 400px;
+  padding-left: 100px;
 }
 
 article {
@@ -65,5 +66,8 @@ article {
 }
 
 footer {
+  display: flex;
   grid-area: ft;
+  justify-content: center;
+  padding-top: 15px;
 }
