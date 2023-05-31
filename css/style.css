@@ -2,8 +2,20 @@ body {
   background-color: bisque;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: (3 1fr);
+  grid-template-rows: 20% 400px 200px ;
+  grid-template-areas:
+  "hd"
+  "main"
+  "ft" ;
+  grid-gap: 5px;
+}
+
 header {
   padding: 10px;
+  grid-area: hd;
 }
 
 .welcome {
@@ -38,19 +50,20 @@ nav ul li a {
   letter-spacing: 0.5px;
 }
 
-#about {
-  
-}
-
 img {
-  width: 200px;
-  padding-left: 200px;
+  width: 300px;
+  height: 400px;
 }
 
-main {
+article {
   display: flex;
+  grid-area: main;
 }
 
 .box {
   border: 1px solid black;
+}
+
+footer {
+  grid-area: ft;
 }
