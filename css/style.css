@@ -19,19 +19,27 @@ header {
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 3px solid black;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  justify-items: center;
+  list-style: none;
+}
+
+nav li {
   list-style-type: none;
 }
 
+nav ul li a {
+  text-decoration: none;
+  width: auto;
+  display: block;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
 #about {
-  display: flex;
-  background-color: white;
-  border: 1px solid black;
-  padding: 15px;
-  font-style: oblique;
-  font-size: large;
+  
 }
 
 img {
@@ -39,6 +47,10 @@ img {
   padding-left: 200px;
 }
 
-.bigbox {
-  border: 1px solid;
+main {
+  display: flex;
+}
+
+.box {
+  border: 1px solid black;
 }
